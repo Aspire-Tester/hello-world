@@ -14,7 +14,7 @@ public class Google {
 		baseUrl = "https://www.google.com/";
 		driver.get(baseUrl);
 		System.out.println(driver.getTitle());
-		if (!driver.getTitle().equals("Google")) {
+		if (!driver.getTitle().equals("Google-Selenium")) {
 			throw new WrongPageException("Incorrect Page for Google");
 		}
 	}

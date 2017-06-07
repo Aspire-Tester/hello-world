@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: chapter3_9_1.chapter3_9_1.SearchGoogleTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 39.579 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 62.456 sec
