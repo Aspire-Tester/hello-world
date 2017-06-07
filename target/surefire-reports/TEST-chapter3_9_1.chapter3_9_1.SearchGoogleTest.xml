@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="chapter3_9_1.chapter3_9_1.SearchGoogleTest" time="62.41" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="chapter3_9_1.chapter3_9_1.SearchGoogleTest" time="41.867" errors="1" skipped="0">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="Chapter3_9"/>
@@ -8,20 +8,23 @@
     <property name="JENKINS_HOME" value="/Users/ellobo/.jenkins"/>
     <property name="PATH" value="/usr/bin:/bin:/usr/sbin:/sbin"/>
     <property name="HUDSON_SERVER_COOKIE" value="87b0cb67dcdab134"/>
+    <property name="POM_ARTIFACTID" value="chapter3_9_1"/>
     <property name="os.name" value="Mac OS X"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/classes"/>
     <property name="EXECUTOR_NUMBER" value="0"/>
     <property name="user.country.format" value="JO"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="chapter3_9_1"/>
     <property name="NODE_LABELS" value="master"/>
     <property name="java.runtime.version" value="1.8.0_131-b11"/>
     <property name="user.name" value="ellobo"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="user.language" value="en"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Chapter3_9/2/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#2"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Chapter3_9/3/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#3"/>
     <property name="TMPDIR" value="/var/folders/49/rd9tbr7526n5vppwy2xxsn6r0000gv/T/"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib"/>
+    <property name="GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="35a56853c45e2dfb5469510a9cd13b9dcca237e4"/>
     <property name="java.version" value="1.8.0_131"/>
     <property name="XPC_FLAGS" value="0x0"/>
     <property name="user.timezone" value="Asia/Amman"/>
@@ -29,7 +32,7 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="NODE_NAME" value="master"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre/lib/endorsed"/>
-    <property name="BUILD_ID" value="2"/>
+    <property name="BUILD_ID" value="3"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -42,18 +45,22 @@
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/jre"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="10.11.6"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Chapter3_9/2/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Chapter3_9/3/display/redirect"/>
+    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
     <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
     <property name="path.separator" value=":"/>
     <property name="java.vm.version" value="25.131-b11"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="35a56853c45e2dfb5469510a9cd13b9dcca237e4"/>
     <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/Chapter3_9/display/redirect"/>
     <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
     <property name="LOGNAME" value="ellobo"/>
+    <property name="POM_PACKAGING" value="jar"/>
     <property name="HOME" value="/Users/ellobo"/>
+    <property name="POM_GROUPID" value="chapter3_9_1"/>
     <property name="user.home" value="/Users/ellobo"/>
-    <property name="BUILD_TAG" value="jenkins-Chapter3_9-2"/>
+    <property name="BUILD_TAG" value="jenkins-Chapter3_9-3"/>
     <property name="JENKINS_SERVER_COOKIE" value="87b0cb67dcdab134"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="XPC_SERVICE_NAME" value="0"/>
@@ -64,10 +71,10 @@
     <property name="Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.x1ChzYkzUE/Render"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="gopherProxySet" value="false"/>
-    <property name="maven.home" value="/usr/local/Cellar/maven/3.3.9/libexec"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main /usr/local/Cellar/maven/3.3.9/libexec /Users/ellobo/.jenkins/war/WEB-INF/lib/remoting-2.53.3.jar /Users/ellobo/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-interceptor-1.5.jar /Users/ellobo/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.5.jar 50804"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.3.9/libexec"/>
     <property name="java.class.path" value="/Users/ellobo/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-agent-1.5.jar:/usr/local/Cellar/maven/3.3.9/libexec/boot/plexus-classworlds-2.5.2.jar:/usr/local/Cellar/maven/3.3.9/libexec/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main /usr/local/Cellar/maven/3.3.9/libexec /Users/ellobo/.jenkins/war/WEB-INF/lib/remoting-2.53.3.jar /Users/ellobo/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-interceptor-1.5.jar /Users/ellobo/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.5.jar 51562"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.os.patch.level" value="unknown"/>
@@ -76,7 +83,7 @@
     <property name="java.io.tmpdir" value="/var/folders/49/rd9tbr7526n5vppwy2xxsn6r0000gv/T/"/>
     <property name="HUDSON_HOME" value="/Users/ellobo/.jenkins"/>
     <property name="PATH+MAVEN" value="/usr/local/Cellar/maven/3.3.9/libexec/bin"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/Chapter3_9/2/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/Chapter3_9/3/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.tfexfs0RAj/Listeners"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
@@ -89,10 +96,10 @@
 "/>
     <property name="MAVEN_HOME" value="/usr/local/Cellar/maven/3.3.9/libexec"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="2"/>
+    <property name="BUILD_NUMBER" value="3"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="GIT_BRANCH" value="origin/master"/>
-    <property name="GIT_COMMIT" value="35a56853c45e2dfb5469510a9cd13b9dcca237e4"/>
+    <property name="GIT_COMMIT" value="e11703adab0dbb2713956d294554e7bd43727704"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="maven3.interceptor" value="/Users/ellobo/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-interceptor-1.5.jar"/>
     <property name="WORKSPACE" value="/Users/ellobo/.jenkins/workspace/Chapter3_9"/>
@@ -101,5 +108,55 @@
     <property name="USER" value="ellobo"/>
     <property name="GIT_URL" value="https://github.com/Aspire-Tester/hello-world.git"/>
   </properties>
-  <testcase classname="chapter3_9_1.chapter3_9_1.SearchGoogleTest" name="searchGoogleTest" time="62.41"/>
+  <testcase classname="chapter3_9_1.chapter3_9_1.SearchGoogleTest" name="searchGoogleTest" time="41.867">
+    <error message="Incorrect Page for Google" type="chapter3_9_1.chapter3_9_1.WrongPageException">chapter3_9_1.chapter3_9_1.WrongPageException: Incorrect Page for Google
+	at chapter3_9_1.chapter3_9_1.Google.&lt;init&gt;(Google.java:18)
+	at chapter3_9_1.chapter3_9_1.SearchGoogleTest.searchGoogleTest(SearchGoogleTest.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+    <system-out>Google
+</system-out>
+    <system-err>1496830163266	geckodriver	INFO	Listening on 127.0.0.1:7273
+1496830166281	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args [&quot;-marionette&quot;]
+1496830192963	Marionette	INFO	Listening on port 51816
+2017-06-07 13:09:53.465 plugin-container[19930:966087] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) &apos;Permission denied&apos;, port = 0x893f, name = &apos;com.apple.tsm.portname&apos;
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-07 13:09:53.465 plugin-container[19930:966087] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) &apos;Permission denied&apos;, port = 0x8a27, name = &apos;com.apple.CFPasteboardClient&apos;
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-07 13:09:53.465 plugin-container[19930:966087] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+Jun 07, 2017 1:09:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1496830202892	Marionette	INFO	New connections will no longer be accepted
+</system-err>
+  </testcase>
 </testsuite>
